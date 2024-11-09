@@ -9,33 +9,51 @@
     <h1>ملأ استمارة تسجيل :</h1>
     <form>
         <label for="nom">الاسم</label>
-        <input type="text" id="nom" name="nom" required>
+        <input type="text" id="nom" name="nom" required><br><br>
+        <label for="bithday" id="day" name="date" requiezd>تاريخ الميلاد</label>
+        <input type="date" id="birth" name="birthday" required>
         <br><br>
         <label for="email">الايمايل</label>
         <input type="email" id="email" name="email" required>
-        <br><br>
-        <label for="password">كلملة السر</label>
-        <input type="redio" id="password" name="password" required minlength="6">
+
         <br><br>
         <label>الجنس:</label>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label>
+        <label for="other">اخر</label>
+        <input type="radio" id="other" name="gender" value="other">
         <br><br>
-        <ol>
-        <label> ماهو كوكبك المفضل؟</label></ol>
-        <input type="checkbox" id="الشمس" name="planet" value="planet">
-        <label for="name of the planet">الشمس</label><br>
-        <input type="checkbox" id="عطارد" name="planet" value="planet">
-        <label for="name of the planet">عطارد</label><br>
-        <input type="checkbox" id="المريخ" name="planet" value="planet">
-        <label for="name of the planet">المريخ</label><br>
-        <input type="checkbox" id="زحل" name="planet" value="planet">
-        <label for="name of the planet">زحل</label><br>
-        <input type="checkbox" id="الأرض" name="planet" value="planet">
-        <label for="name of the planet">الأرض</label><br>
+        <label for="gouvernorat">الولاية :</label>
+        <select id="gouvernorat" name="gouvernorat">
+          <option value="ariana">أريانة</option>
+          <option value="beja">باجة</option>
+          <option value="ben_arous">بن عروس</option>
+          <option value="bizerte">بنزرت</option>
+          <option value="gabes">قابس</option>
+          <option value="gafsa">قفصة</option>
+          <option value="jendouba">جندوبة</option>
+          <option value="kairouan">القيروان</option>
+          <option value="kasserine">القصرين</option>
+          <option value="kebili">قبلي</option>
+          <option value="le_kef">الكاف</option>
+          <option value="mahdia">المهدية</option>
+          <option value="la_manouba">منوبة</option>
+          <option value="medenine">مدنين</option>
+          <option value="monastir">المنستير</option>
+          <option value="nabeul">نابل</option>
+          <option value="sfax">صفاقس</option>
+          <option value="sidi_bouzid">سيدي بوزيد</option>
+          <option value="siliana">سليانة</option>
+          <option value="sousse">سوسة</option>
+          <option value="tataouine">تطاوين</option>
+          <option value="tozeur">توزر</option>
+          <option value="tunis">تونس</option>
+          <option value="zaghouan">زغوان</option>
+        </select>
         <br><br>
+        
         <button style="color: beige;color:black" type="submit">ارسال</button>
 
     </form>
